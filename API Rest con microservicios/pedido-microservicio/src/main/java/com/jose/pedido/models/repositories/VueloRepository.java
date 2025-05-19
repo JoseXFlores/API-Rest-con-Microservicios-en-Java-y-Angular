@@ -1,0 +1,12 @@
+package com.jose.pedido.models.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.jose.commons.models.entities.Pedido;
+
+
+@Repository
+public interface VueloRepository extends JpaRepository<Pedido,Long>  {
+
+}

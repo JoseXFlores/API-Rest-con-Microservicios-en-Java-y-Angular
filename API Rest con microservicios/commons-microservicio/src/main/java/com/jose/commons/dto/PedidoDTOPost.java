@@ -1,0 +1,92 @@
+package com.jose.commons.dto;
+
+import java.time.LocalDate;
+
+import jakarta.validation.constraints.Future;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+
+public class PedidoDTOPost {
+	
+   	private Long id;
+   	
+	@NotBlank(message = "El codigo del vuelo no puede estar en blanco")    	
+    private String codigoVuelo;
+	
+	@NotNull(message = "El avion no puede estar en blanco") 
+    private Long avion;
+    
+	@NotNull(message = "El origen no puede estar en blanco") 
+    private Long origen;
+    
+	@NotNull(message = "El destino no puede estar en blanco") 
+    private Long destino;
+    
+	@Future(message = "La fecha debe estar en el futuro")
+	private LocalDate fechaSalida;
+    
+	@Min(value = 1, message = "El estatus mínimo permitido es 1")
+	@Max(value = 2, message = "El estatus máximo permitido es 2")
+	@NotNull(message = "El estatus es obligatorio")
+    private Long estatus;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getCodigoVuelo() {
+		return codigoVuelo;
+	}
+
+	public void setCodigoVuelo(String codigoVuelo) {
+		this.codigoVuelo = codigoVuelo;
+	}
+
+	public Long getAvion() {
+		return avion;
+	}
+
+	public void setAvion(Long avion) {
+		this.avion = avion;
+	}
+
+	public Long getOrigen() {
+		return origen;
+	}
+
+	public void setOrigen(Long origen) {
+		this.origen = origen;
+	}
+
+	public Long getDestino() {
+		return destino;
+	}
+
+	public void setDestino(Long destino) {
+		this.destino = destino;
+	}
+
+	public LocalDate getFechaSalida() {
+		return fechaSalida;
+	}
+
+	public void setFechaSalida(LocalDate fechaSalida) {
+		this.fechaSalida = fechaSalida;
+	}
+
+	public Long getEstatus() {
+		return estatus;
+	}
+
+	public void setEstatus(Long estatus) {
+		this.estatus = estatus;
+	}
+
+}

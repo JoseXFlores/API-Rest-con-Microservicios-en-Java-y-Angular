@@ -4,13 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 
-import com.jose.commons.dto.VueloDTOGet;
-import com.jose.commons.dto.VueloDTOPost;
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
 import com.jose.commons.servicies.CommonService;
 
-public interface VueloService extends CommonService<VueloDTOPost> {
+public interface VueloService extends CommonService<PedidoDTOPost> {
 	
-	List<VueloDTOGet> listarGet();
+	List<PedidoDTOGet> listarGet();
 	
-	Optional<VueloDTOGet> obtenerPorIdGet(Long id);
+	Optional<PedidoDTOGet> obtenerPorIdGet(Long id);
 }

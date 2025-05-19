@@ -1,0 +1,73 @@
+package com.jose.producto.services;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+
+import com.jose.commons.dto.ProductoDTO;
+
+import com.jose.commons.models.entities.Producto;
+import com.jose.commons.servicies.CommonServiceImpl;
+import com.jose.producto.mappers.ProductoMapper;
+import com.jose.producto.models.repositories.ProductoRepository;
+
+@Service
+public class ProductoServiceImpl  extends
+CommonServiceImpl<ProductoDTO,Producto,ProductoMapper,ProductoRepository> implements ProductoService{
+
+	@Override
+	@Transactional(readOnly =true)
+	public List<ProductoDTO> listar() {
+		List<ProductoDTO> dtos = new ArrayList<>();
+		repository.findAll().forEach(producto -> {
+			dtos.add(mapper.entityToDTO(producto));
+		});
+		return dtos;
+	}
+
+	@Override
+	@Transactional(readOnly =true)
+	public Optional<ProductoDTO> obtenerPorId(Long id) {
+		Optional<Producto> producto =repository.findById(id);
+		if(producto.isPresent()) {
+			return Optional.of(mapper.entityToDTO(producto.get()));
+		}
+		return Optional.empty();
+	}
+
+	@Override
+	@Transactional
+	public AerolineaDTO editar(AerolineaDTO dto, Long id) {
+		Optional<Aerolinea> aerolinea =repository.findById(id);
+		if(aerolinea.isPresent()) {
+			Aerolinea aerolineaDb = mapper.dtoEntity(dto);
+			aerolineaDb.setId(id);
+			repository.save(aerolineaDb);
+			return mapper.entityToDTO(aerolineaDb);
+		}
+		return null;
+	}
+
+	@Override
+	@Transactional
+	public AerolineaDTO insertar(AerolineaDTO dto) {
+		Aerolinea aerolinea = mapper.dtoEntity(dto);
+		repository.save(aerolinea);
+		return mapper.entityToDTO(aerolinea);
+	}
+
+	@Override 
+	@Transactional
+	public AerolineaDTO eliminar(Long id) {
+		Optional<Aerolinea> aerolinea =repository.findById(id);
+		if(aerolinea.isPresent()) {
+			repository.deleteById(id);
+			return mapper.entityToDTO(aerolinea.get());
+		}
+		return null;
+	}
+}

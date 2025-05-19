@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
-import com.jose.commons.dto.VueloDTOGet;
-import com.jose.commons.dto.VueloDTOPost;
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
 import com.jose.commons.models.entities.Vuelo;
 import com.jose.commons.servicies.CommonServiceImpl;
 import com.jose.vuelo.mappers.VueloGetMapper;
@@ -18,7 +18,7 @@ import com.jose.vuelo.mappers.VueloPostMapper;
 import com.jose.vuelo.models.repositories.VueloRepository;
 
 @Service
-public class VueloServiceImpl  extends CommonServiceImpl<VueloDTOPost, Vuelo, VueloPostMapper, VueloRepository>
+public class VueloServiceImpl  extends CommonServiceImpl<PedidoDTOPost, Vuelo, VueloPostMapper, VueloRepository>
 implements VueloService{
 	
 	@Autowired
@@ -27,8 +27,8 @@ implements VueloService{
 
 		@Override
 		@Transactional(readOnly = true)
-		public List<VueloDTOGet> listarGet() {
-			List<VueloDTOGet> dtos = new ArrayList<>();
+		public List<PedidoDTOGet> listarGet() {
+			List<PedidoDTOGet> dtos = new ArrayList<>();
 			repository.findAll().forEach(avion-> {
 				dtos.add(getMapper.entityToDTO(avion));
 			});
@@ -37,7 +37,7 @@ implements VueloService{
 	
 		@Override
 		@Transactional(readOnly = true)
-		public Optional<VueloDTOGet> obtenerPorIdGet(Long id) {
+		public Optional<PedidoDTOGet> obtenerPorIdGet(Long id) {
 			Optional<Vuelo> vuelo = repository.findById(id);
 			if (vuelo.isPresent()) {
 				return Optional.of(getMapper.entityToDTO(vuelo.get()));
@@ -48,7 +48,7 @@ implements VueloService{
 	
 		@Override
 		@Transactional
-		public VueloDTOPost editar(VueloDTOPost dto, Long id) {
+		public PedidoDTOPost editar(PedidoDTOPost dto, Long id) {
 			Optional<Vuelo> vuelo = repository.findById(id);
 			if (vuelo.isPresent()) {
 				Vuelo vueloDb = mapper.dtoEntity(dto);
@@ -61,7 +61,7 @@ implements VueloService{
 	
 		@Override
 		@Transactional
-		public VueloDTOPost insertar(VueloDTOPost dto) {
+		public PedidoDTOPost insertar(PedidoDTOPost dto) {
 			Vuelo vueloDb = mapper.dtoEntity(dto);
 			repository.save(vueloDb);
 			return mapper.entityToDTO(vueloDb);
@@ -69,7 +69,7 @@ implements VueloService{
 	
 		@Override
 		@Transactional
-		public VueloDTOPost eliminar(Long id) {
+		public PedidoDTOPost eliminar(Long id) {
 			Optional<Vuelo> vuelo = repository.findById(id);
 			if(vuelo.isPresent()) {
 				repository.deleteById(id);

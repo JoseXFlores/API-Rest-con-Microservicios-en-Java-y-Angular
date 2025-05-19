@@ -1,0 +1,16 @@
+package com.api.cliente.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.api.cliente.services.ClienteService;
+import com.jose.commons.controllers.CommonControllers;
+
+
+@RestController
+public class ClienteController extends CommonControllers<ClienteDTO,ClienteService> {
+	
+	public ClienteController(ClienteService service) {
+		super(service);
+	}
+
+}

@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.jose.commons.dto.AvionDTOGet;
-import com.jose.commons.dto.VueloDTOPost;
+import com.jose.commons.dto.PedidoDTOPost;
 
 import com.jose.commons.mappers.CommonMapper;
 
@@ -17,7 +17,7 @@ import com.jose.vuelo.clients.AvionClient;
 import com.jose.vuelo.models.repositories.VueloRepository;
 
 @Component
-public class VueloPostMapper extends CommonMapper<VueloDTOPost, Vuelo, VueloRepository> {
+public class VueloPostMapper extends CommonMapper<PedidoDTOPost, Vuelo, VueloRepository> {
 
 	@Autowired
 	public AvionClient avionClient;
@@ -26,10 +26,10 @@ public class VueloPostMapper extends CommonMapper<VueloDTOPost, Vuelo, VueloRepo
 	public AeropuertoClient aeropuertoClient;
 
 	@Override
-	public VueloDTOPost entityToDTO(Vuelo entity) {
+	public PedidoDTOPost entityToDTO(Vuelo entity) {
         if (entity == null) return null;
 
-        VueloDTOPost dto = new VueloDTOPost();
+        PedidoDTOPost dto = new PedidoDTOPost();
 		dto.setId(entity.getId());
 		dto.setCodigoVuelo(entity.getCodigoVuelo());
 		
@@ -53,7 +53,7 @@ public class VueloPostMapper extends CommonMapper<VueloDTOPost, Vuelo, VueloRepo
 	}
 
 	@Override
-	public Vuelo dtoEntity(VueloDTOPost dto) {
+	public Vuelo dtoEntity(PedidoDTOPost dto) {
         if (dto == null) return null;
 
         Vuelo entity = new Vuelo();

@@ -11,15 +11,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jose.commons.controllers.CommonControllers;
-import com.jose.commons.dto.VueloDTOGet;
-import com.jose.commons.dto.VueloDTOPost;
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
 
 import com.jose.vuelo.servicies.VueloService;
 
 
 
 @RestController
-public class VueloController extends CommonControllers<VueloDTOPost, VueloService> {
+public class VueloController extends CommonControllers<PedidoDTOPost, VueloService> {
 
 	public VueloController(VueloService service) {
 		super(service);
@@ -27,24 +27,24 @@ public class VueloController extends CommonControllers<VueloDTOPost, VueloServic
 	}
 
 	@Override
-	public ResponseEntity<List<VueloDTOPost>> getAll() {
+	public ResponseEntity<List<PedidoDTOPost>> getAll() {
 		// TODO Auto-generated method stub
 		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
 	}
 
 	@Override
-	public ResponseEntity<VueloDTOPost> getById(Long id) {
+	public ResponseEntity<PedidoDTOPost> getById(Long id) {
 		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
 	}
 	
 	@GetMapping("/get")
-	public ResponseEntity<List<VueloDTOGet>> getAllVuelo(){
+	public ResponseEntity<List<PedidoDTOGet>> getAllVuelo(){
 		return ResponseEntity.ok(service.listarGet());
 	}
 	
 	@GetMapping("/get/{id}")
-	public ResponseEntity<VueloDTOGet> getVueloById(@PathVariable Long id){
-		Optional<VueloDTOGet> dto = service.obtenerPorIdGet(id);
+	public ResponseEntity<PedidoDTOGet> getVueloById(@PathVariable Long id){
+		Optional<PedidoDTOGet> dto = service.obtenerPorIdGet(id);
 		if (dto.isPresent()) {
 			return ResponseEntity.ok(dto.get());
 		}

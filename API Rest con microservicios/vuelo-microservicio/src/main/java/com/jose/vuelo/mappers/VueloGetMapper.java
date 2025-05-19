@@ -3,17 +3,17 @@ package com.jose.vuelo.mappers;
 import org.springframework.stereotype.Component;
 
 
-import com.jose.commons.dto.VueloDTOGet;
+import com.jose.commons.dto.PedidoDTOGet;
 
 import com.jose.commons.models.entities.Vuelo;
 
 @Component
 public class VueloGetMapper {
 	
-	public VueloDTOGet entityToDTO (Vuelo entity) {	
+	public PedidoDTOGet entityToDTO (Vuelo entity) {	
 		if(entity ==null) return null;
 		
-		VueloDTOGet dto = new VueloDTOGet();
+		PedidoDTOGet dto = new PedidoDTOGet();
 		dto.setId(entity.getId());
 		dto.setCodigoVuelo(entity.getCodigoVuelo());
 

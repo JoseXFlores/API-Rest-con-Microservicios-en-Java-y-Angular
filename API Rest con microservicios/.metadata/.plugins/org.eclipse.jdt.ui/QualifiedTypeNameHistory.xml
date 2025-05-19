@@ -26,13 +26,11 @@
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestControllerAdvice"/>
     <fullyQualifiedTypeName name="com.jose.aerolinea.models.repositories.AerolineaRepository"/>
-    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotNull"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Past"/>
     <fullyQualifiedTypeName name="com.jose.commons.models.entities.Estatus"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Transient"/>
     <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
     <fullyQualifiedTypeName name="com.jose.commons.dto.AeropuertoDTO"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
@@ -53,6 +51,12 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="com.jose.commons.models.entities.Vuelo"/>
     <fullyQualifiedTypeName name="com.jose.commons.dto.AvionDTOGet"/>
-    <fullyQualifiedTypeName name="jakarta.validation.constraints.Min"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Max"/>
+    <fullyQualifiedTypeName name="com.jose.cliente.services.ClienteService"/>
+    <fullyQualifiedTypeName name="com.jose.commons.dto.ClienteDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.jose.commons.models.entities.Cliente"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.DecimalMin"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.Min"/>
 </qualifiedTypeNameHistroy>
