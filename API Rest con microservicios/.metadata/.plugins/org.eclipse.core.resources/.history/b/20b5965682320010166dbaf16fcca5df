@@ -1,0 +1,56 @@
+package com.jose.vuelo.controllers;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jose.avion.services.AvionService;
+import com.jose.commons.controllers.CommonControllers;
+import com.jose.commons.dto.VueloDTOGet;
+import com.jose.commons.dto.VueloDTOPost;
+import com.jose.commons.dto.VueloDTOPost;
+import com.jose.vuelo.servicies.VueloService;
+
+import jakarta.validation.Valid;
+
+@RestController
+public class VueloController extends CommonControllers<VueloDTOPost, VueloService> {
+
+	public VueloController(VueloService service) {
+		super(service);
+
+	}
+
+	@Override
+	public ResponseEntity<List<VueloDTOPost>> getAll() {
+		// TODO Auto-generated method stub
+		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
+	}
+
+	@Override
+	public ResponseEntity<VueloDTOPost> getById(Long id) {
+		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
+	}
+	
+	@GetMapping("/get")
+	public ResponseEntity<List<VueloDTOGet>> getAllVuelo(){
+		return ResponseEntity.ok(service.listarGet());
+	}
+	
+	@GetMapping("/get/{id}")
+	public ResponseEntity<VueloDTOGet> getVueloById(@PathVariable Long id){
+		Optional<VueloDTOGet> dto = service.obtenerPorIdGet(id);
+		if (dto.isPresent()) {
+			return ResponseEntity.ok(dto.get());
+		}
+		return ResponseEntity.notFound().build();
+	}
+	
+
+}

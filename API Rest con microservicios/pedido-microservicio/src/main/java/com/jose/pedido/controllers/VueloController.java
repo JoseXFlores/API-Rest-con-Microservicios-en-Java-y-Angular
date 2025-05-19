@@ -1,0 +1,54 @@
+package com.jose.pedido.controllers;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jose.commons.controllers.CommonControllers;
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
+import com.jose.pedido.servicies.VueloService;
+
+
+
+@RestController
+public class VueloController extends CommonControllers<PedidoDTOPost, VueloService> {
+
+	public VueloController(VueloService service) {
+		super(service);
+
+	}
+
+	@Override
+	public ResponseEntity<List<PedidoDTOPost>> getAll() {
+		// TODO Auto-generated method stub
+		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
+	}
+
+	@Override
+	public ResponseEntity<PedidoDTOPost> getById(Long id) {
+		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
+	}
+	
+	@GetMapping("/get")
+	public ResponseEntity<List<PedidoDTOGet>> getAllVuelo(){
+		return ResponseEntity.ok(service.listarGet());
+	}
+	
+	@GetMapping("/get/{id}")
+	public ResponseEntity<PedidoDTOGet> getVueloById(@PathVariable Long id){
+		Optional<PedidoDTOGet> dto = service.obtenerPorIdGet(id);
+		if (dto.isPresent()) {
+			return ResponseEntity.ok(dto.get());
+		}
+		return ResponseEntity.notFound().build();
+	}
+	
+
+}

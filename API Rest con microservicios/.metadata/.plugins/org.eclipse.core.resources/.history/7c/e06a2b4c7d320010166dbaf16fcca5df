@@ -1,0 +1,5 @@
+package com.jose.vuelo.mappers;
+
+public class VueloPostMapper {
+
+}

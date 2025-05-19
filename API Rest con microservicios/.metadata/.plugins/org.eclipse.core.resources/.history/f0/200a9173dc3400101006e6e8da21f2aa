@@ -1,0 +1,17 @@
+package com.jose.producto.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jose.commons.controllers.CommonControllers;
+import com.jose.commons.dto.AerolineaDTO;
+import com.jose.commons.dto.ProductoDTO;
+import com.jose.producto.services.AerolineaService;
+
+@RestController
+public class AerolineaController extends CommonControllers<ProductoDTO,ProductoService> {
+	
+	public AerolineaController(AerolineaService service) {
+		super(service);
+	}
+
+}

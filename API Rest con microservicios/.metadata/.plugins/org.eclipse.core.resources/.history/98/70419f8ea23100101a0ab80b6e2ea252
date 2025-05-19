@@ -1,0 +1,8 @@
+package com.jose.commons.models.entities;
+
+public enum Estatus {
+
+    DISPONIBLE,
+    NO_DISPONIBLE
+
+}

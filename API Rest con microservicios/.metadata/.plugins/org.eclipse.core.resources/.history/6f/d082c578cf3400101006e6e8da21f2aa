@@ -1,0 +1,5 @@
+package com.api.commons.dto;
+
+public class ClienteDTO {
+
+}

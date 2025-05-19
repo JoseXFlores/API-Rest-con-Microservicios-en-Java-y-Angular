@@ -1,0 +1,5 @@
+package com.jose.commons.dto;
+
+public class AerolineaDTO {
+
+}

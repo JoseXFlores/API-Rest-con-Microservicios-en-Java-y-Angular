@@ -1,0 +1,26 @@
+package com.jose.commons.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Pattern;
+
+public class ProductoDTO {
+	
+	private Long id; 
+	
+	@NotBlank(message = "El nombre no puede estar en blanco")
+	private String nombre;
+	
+	@NotBlank(message = "El apellido no puede estar en blanco")
+	private String descripcion;
+	
+	@NotNull(message = "El precio no puede ser nulo")
+	@DecimalMin(value = "0.0", inclusive = false, message = "El precio debe ser un número positivo")
+	private Double precio;
+	
+	@NotBlank(message = "El teléfono no puede estar en blanco")
+	@Pattern(regexp = "^[0-9]{1,10}$", message = "El teléfono debe contener solo números y un máximo de 10 dígitos")
+	private String stock;
+	
+
+
+}
