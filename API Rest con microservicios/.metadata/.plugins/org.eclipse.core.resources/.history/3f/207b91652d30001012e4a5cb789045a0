@@ -1,0 +1,150 @@
+package com.jose.commons.models.entities;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.OneToOne;
+import jakarta.persistence.SequenceGenerator;
+import jakarta.persistence.Table;
+
+@Table(name = "POKEMON")
+@Entity
+public class Pokemon {
+	
+	@Id                                                                             
+	@GeneratedValue(strategy = GenerationType.SEQUENCE,generator = "MOV_SEQ")    
+	@SequenceGenerator(name = "POKEMON_SEQ", sequenceName = "MOV_SEQ", allocationSize = 1)    
+	@Column(name = "ID_POKEMON")                                                     
+	private Long id;                                                                
+	                                                                                
+	@Column(name = "NOMBRE")                                                        
+	private String nombre;  
+    
+	@Column(name = "ATAQUE") 
+	private Short ataque; 
+	
+	@Column(name = "DEFENSA") 	
+	private Short defensa; 
+	
+	@Column(name = "VELOCIDAD") 	
+	private Short velocidad; 
+	
+	@ManyToMany(cascade = CascadeType.MERGE)
+	@JoinTable(
+			name = "POKEMON_TIPO",
+			joinColumns = @JoinColumn(name = "ID_POKEMON"),
+			inverseJoinColumns = @JoinColumn(name = "ID_TIPO")
+	)
+	
+	private Set<Tipo> tipos;
+	
+	@ManyToMany(cascade = CascadeType.MERGE)
+	@JoinTable(
+			name = "POKEMON_REGION",
+			joinColumns = @JoinColumn(name = "ID_POKEMON"),
+			inverseJoinColumns = @JoinColumn(name = "ID_REGION")
+	)
+	private Set<Region> regiones;
+	
+	@ManyToMany(cascade = CascadeType.MERGE)
+	@JoinTable(
+			name = "POKEMON_MOVIMIENTO",
+			joinColumns = @JoinColumn(name = "ID_POKEMON"),
+			inverseJoinColumns = @JoinColumn(name = "ID_MOVIMIENTO")
+	)
+	private Set <Movimiento> movimientos;
+
+	@OneToOne
+	@JoinColumn(name="ID_EVOLUCION")
+	private  Pokemon evolucion;
+
+	public Pokemon() {
+
+		this.tipos = new HashSet<>();
+		this.regiones = new HashSet<>();
+		this.movimientos = new HashSet<>();
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Short getAtaque() {
+		return ataque;
+	}
+
+	public void setAtaque(Short ataque) {
+		this.ataque = ataque;
+	}
+
+	public Short getDefensa() {
+		return defensa;
+	}
+
+	public void setDefensa(Short defensa) {
+		this.defensa = defensa;
+	}
+
+	public Short getVelocidad() {
+		return velocidad;
+	}
+
+	public void setVelocidad(Short velocidad) {
+		this.velocidad = velocidad;
+	}
+
+	public Set<Tipo> getTipos() {
+		return tipos;
+	}
+
+	public void setTipos(Set<Tipo> tipos) {
+		this.tipos = tipos;
+	}
+
+	public Set<Region> getRegiones() {
+		return regiones;
+	}
+
+	public void setRegiones(Set<Region> regiones) {
+		this.regiones = regiones;
+	}
+
+	public Set<Movimiento> getMovimientos() {
+		return movimientos;
+	}
+
+	public void setMovimientos(Set<Movimiento> movimientos) {
+		this.movimientos = movimientos;
+	}
+
+	public Pokemon getEvolucion() {
+		return evolucion;
+	}
+
+	public void setEvolucion(Pokemon evolucion) {
+		this.evolucion = evolucion;
+	} 
+	
+	
+}

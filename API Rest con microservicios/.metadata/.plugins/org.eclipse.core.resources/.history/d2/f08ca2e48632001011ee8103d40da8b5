@@ -1,0 +1,112 @@
+package com.jose.commons.dto;
+
+import java.time.LocalDate;
+
+import jakarta.validation.constraints.Future;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+
+public class VueloDTOPost {
+	
+   	private Long id;
+   	
+	@NotBlank(message = "El codigo del vuelo no puede estar en blanco")    	
+    private String codigoVuelo;
+	
+	@NotBlank(message = "El avion no puede estar en blanco") 
+    private Long avion;
+    
+
+    private Long origen;
+    
+	@NotBlank(message = "El destino no puede estar en blanco") 
+    private Long destino;
+    
+	@NotNull(message = "La fecha del primer vuelo no puede ser nula")
+	@Future(message = "La fecha debe estar en el futuro")
+	private LocalDate fechaSalida;
+    
+	@NotNull(message = "El estatus es obligatorio")
+    private Long estatus;
+	
+    private Long idAvion;
+    
+    private Long idAeropuerto;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getCodigoVuelo() {
+		return codigoVuelo;
+	}
+
+	public void setCodigoVuelo(String codigoVuelo) {
+		this.codigoVuelo = codigoVuelo;
+	}
+
+	public Long getAvion() {
+		return avion;
+	}
+
+	public void setAvion(Long avion) {
+		this.avion = avion;
+	}
+
+	public Long getOrigen() {
+		return origen;
+	}
+
+	public void setOrigen(Long origen) {
+		this.origen = origen;
+	}
+
+	public Long getDestino() {
+		return destino;
+	}
+
+	public void setDestino(Long destino) {
+		this.destino = destino;
+	}
+
+	public LocalDate getFechaSalida() {
+		return fechaSalida;
+	}
+
+	public void setFechaSalida(LocalDate fechaSalida) {
+		this.fechaSalida = fechaSalida;
+	}
+
+	public Long getEstatus() {
+		return estatus;
+	}
+
+	public void setEstatus(Long estatus) {
+		this.estatus = estatus;
+	}
+
+	public Long getIdAvion() {
+		return idAvion;
+	}
+
+	public void setIdAvion(Long idAvion) {
+		this.idAvion = idAvion;
+	}
+
+	public Long getIdAeropuerto() {
+		return idAeropuerto;
+	}
+
+	public void setIdAeropuerto(Long idAeropuerto) {
+		this.idAeropuerto = idAeropuerto;
+	}
+    
+   
+
+
+}

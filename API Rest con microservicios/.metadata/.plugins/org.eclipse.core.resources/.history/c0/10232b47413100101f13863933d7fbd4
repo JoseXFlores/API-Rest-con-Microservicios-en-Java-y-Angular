@@ -1,0 +1,5 @@
+package com.jose.aerolinea.models.repositories;
+
+public class AerolineaRepository {
+
+}

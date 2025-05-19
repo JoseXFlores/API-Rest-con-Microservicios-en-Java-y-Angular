@@ -1,0 +1,79 @@
+package com.jose.commons.dto;
+
+import java.time.LocalDate;
+
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
+
+public class AerolineaDTO {
+	
+	private Long id; 
+	
+	@NotBlank(message = "El nombre no puede estar en blanco")
+	private String nombre;
+	
+	@NotBlank(message = "El nombre no puede estar en blanco")   
+	private String iata;
+	 
+	@Min(value = 1, message = "El estatus debe ser al menos 1")
+	@NotNull(message = "El estatus es obligatorio")
+    private Long estatus;
+	
+	@NotBlank(message = "El nombre no puede estar en blanco")   
+    private String pais;
+    
+	@NotNull(message = "La fecha de fundación no puede ser nula")
+	@Past(message = "La fecha de fundación debe estar en el pasado")
+    private LocalDate fechaFundacion;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getIata() {
+		return iata;
+	}
+
+	public void setIata(String iata) {
+		this.iata = iata;
+	}
+
+	public Long getEstatus() {
+		return estatus;
+	}
+
+	public void setEstatus(Long estatus) {
+		this.estatus = estatus;
+	}
+
+	public String getPais() {
+		return pais;
+	}
+
+	public void setPais(String pais) {
+		this.pais = pais;
+	}
+
+	public LocalDate getFechaFundacion() {
+		return fechaFundacion;
+	}
+
+	public void setFechaFundacion(LocalDate fechaFundacion) {
+		this.fechaFundacion = fechaFundacion;
+	}
+
+}

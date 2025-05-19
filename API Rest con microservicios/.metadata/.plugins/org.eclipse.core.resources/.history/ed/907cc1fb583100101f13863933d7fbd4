@@ -1,0 +1,6 @@
+public enum Estatus {
+
+    DISPONIBLE,
+    NO_DISPONIBLE;
+
+}

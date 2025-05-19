@@ -1,0 +1,88 @@
+package com.jose.vuelo.mappers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.jose.commons.dto.VueloDTOGet;
+import com.jose.commons.dto.VueloDTOPost;
+
+import com.jose.commons.mappers.CommonMapper;
+import com.jose.commons.models.entities.Aerolinea;
+import com.jose.commons.models.entities.Aeropuerto;
+import com.jose.commons.models.entities.Vuelo;
+
+import com.jose.vuelo.clients.AeropuertoClient;
+import com.jose.vuelo.clients.AvionClient;
+import com.jose.vuelo.models.repositories.VueloRepository;
+
+@Component
+public class VueloPostMapper extends CommonMapper<VueloDTOPost, Vuelo, VueloRepository> {
+
+	@Autowired
+	public AvionClient avionClient;
+	
+	@Autowired
+	public AeropuertoClient aeropuertoClient;
+
+	@Override
+	protected VueloDTOPost entityToDTO(Vuelo entity) {
+        if (entity == null) return null;
+
+        VueloDTOPost dto = new VueloDTOPost();
+		dto.setId(entity.getId());
+		dto.setCodigoVuelo(entity.getCodigoVuelo());
+
+		if(entity.getAvion()!=null) {
+			dto.setAvion(entity.getAvion().getNombre());
+			
+		}
+		
+		if(entity.getOorigen()!=null) {
+			dto.setOrigen(entity.getAeropuerto().getNombre());
+		}
+		
+
+		if(entity.getDestino()!=null) {
+			dto.setDestino(entity.getAeropuerto().getNombre());
+		}
+	    
+	   dto.setFechaSalida(entity.getFechaSalida());
+	   dto.setEstatus(entity.getEstatus());
+	   
+        return dto;
+	}
+
+	@Override
+	protected Vuelo dtoEntity(VueloDTOPost dto) {
+        if (dto == null) return null;
+
+        Vuelo entity = new Vuelo();
+        entity.setId(dto.getId());
+        entity.setCodigoVuelo(entity.getCodigoVuelo());
+        
+        if (dto.getIdAviones() != null) {
+
+            Avion avion = avionClient.getAvionById(dto.getIdAviones());
+            entity.setAvion(avion);
+        }
+        
+        
+        if (dto.getIdAeropuertos() != null) {
+
+            Aeropuerto aeropuerto = aeropuertoClient.getAeropuertoById(dto.getIdAeropuertos());
+            entity.setAvion(aeropuerto);
+        }
+        
+        if (dto.getIdAeropuertos() != null) {
+
+            Aeropuerto aeropuerto = aeropuertoClient.getAeropuertoById(dto.getIdAeropuertos());
+            entity.setAvion(aeropuerto);
+        }
+        
+        entity.setFechaSalida(entity.getFechaSalida());
+        entity.setEstatus(entity.getEstatus());
+        
+
+        return entity;
+	}
+}

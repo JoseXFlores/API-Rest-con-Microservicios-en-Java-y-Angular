@@ -1,0 +1,82 @@
+package com.jose.commons.dto;
+
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+public class AeropuertoDTO {
+
+    private Long id;
+
+    @NotBlank(message = "El nombre no puede estar en blanco")
+    private String nombre;
+
+    @NotBlank(message = "El código no puede estar en blanco")
+    private String codigo;
+
+    private String latitud;
+    private String longitud;
+
+    @NotBlank(message = "El país no puede estar en blanco")
+    private String pais;
+
+    @NotNull(message = "El estatus es obligatorio")
+    private String estatus;  // Aquí usamos String para enviar "DISPONIBLE" o "NO_DISPONIBLE"
+
+    // Getters y setters
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getLatitud() {
+        return latitud;
+    }
+
+    public void setLatitud(String latitud) {
+        this.latitud = latitud;
+    }
+
+    public String getLongitud() {
+        return longitud;
+    }
+
+    public void setLongitud(String longitud) {
+        this.longitud = longitud;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public String getEstatus() {
+        return estatus;
+    }
+
+    public void setEstatus(String estatus) {
+        this.estatus = estatus;
+    }
+}

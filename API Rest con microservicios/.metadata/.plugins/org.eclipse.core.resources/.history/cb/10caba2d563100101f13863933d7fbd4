@@ -1,0 +1,26 @@
+package com.jose.commons.models.entities;
+
+public enum Estatus {
+    DISPONIBLE(1L),
+    NO_DISPONIBLE(2L);
+
+    private final Long codigo;
+
+    Estatus(Long codigo) {
+        this.codigo = codigo;
+    }
+
+    public Long getCodigo() {
+        return codigo;
+    }
+
+    public static Estatus fromCodigo(Long codigo) {
+        if (codigo == null) return null;
+        for (Estatus e : Estatus.values()) {
+            if (e.codigo.equals(codigo)) {
+                return e;
+            }
+        }
+        throw new IllegalArgumentException("Código de estatus no válido: " + codigo);
+    }
+}
