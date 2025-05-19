@@ -1,5 +1,0 @@
-package com.jose.vuelo.models.repositories;
-
-public interface VueloRepository {
-
-}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;region-microservicio&apos;&#x0D;&#x0A;- Original project: &apos;region-microservicio&apos;&#x0D;&#x0A;- Original element: &apos;com.jose.region.services.TipoService.java&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jose.region.services{TipoService.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1747166627002" subPackages="false" version="1.0"/>
-</session>

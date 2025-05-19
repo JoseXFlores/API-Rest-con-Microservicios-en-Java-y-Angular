@@ -1,7 +1,0 @@
-package com.jose.commons.servicies;
-
-public abstract class CommonServiceImpl<D, E, 
-M,
-R> {
-
-}
