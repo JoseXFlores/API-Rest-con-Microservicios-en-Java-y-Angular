@@ -6142,3 +6142,321 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.jose:Tare
 2025-05-19 10:15:38,241 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-05-19 10:15:38,246 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-05-19 10:15:38,249 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:24:00,930 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:24:00,937 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:24:00,940 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:24:18,273 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:24:18,282 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:24:18,286 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:29:05,011 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:29:05,016 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:29:05,019 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:29:31,989 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:29:31,992 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:29:31,995 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:29:38,784 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:29:38,788 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:29:38,792 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:30:30,631 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:30:30,640 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:30:30,643 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:30:34,869 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:30:34,872 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:30:34,875 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:30:37,783 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:30:37,786 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:30:37,789 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:31:38,031 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:31:38,035 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:31:38,038 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:32:14,028 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:32:14,032 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:32:14,036 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:36:53,925 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:36:53,931 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:36:53,935 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:36:53,999 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:36:54,006 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:36:54,009 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:37:01,321 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:37:01,328 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:37:01,331 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:37:19,227 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:37:19,232 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:37:19,235 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:37:57,575 [Worker-26: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:37:57,644 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:37:57,706 [Worker-26: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:37:58,500 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:37:58,501 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:37:58,509 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:38:01,439 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:38:01,958 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:38:02,611 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:38:02,612 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:38:02,617 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:38:09,394 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:38:09,804 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.api:commons-microservicio:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2025-05-19 10:38:10,418 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:38:10,418 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:38:10,425 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:38:11,280 [Worker-32: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.api:commons-microservicio:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.api:commons-microservicio:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-19 10:38:37,491 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:commons-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\pom.xml.
+2025-05-19 10:38:37,868 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:38:38,123 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.api:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:38:38,529 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:vuelo-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\vuelo-microservicio\pom.xml.
+2025-05-19 10:38:38,534 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.jose:commons-microservicio:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2025-05-19 10:38:38,998 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:aerolinea-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\producto-microservicio\pom.xml.
+2025-05-19 10:38:39,280 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:vuelo-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\pedido-microservicio\pom.xml.
+2025-05-19 10:38:40,983 [Worker-26: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.jose:commons-microservicio:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.jose:commons-microservicio:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-19 10:38:40,983 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:38:40,985 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:38:40,991 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:38:40,994 [Worker-26: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.jose:commons-microservicio:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.jose:commons-microservicio:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-19 10:38:41,161 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:38:41,183 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:38:41,186 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:40:21,823 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:40:22,093 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.jose:commons-microservicio:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2025-05-19 10:40:22,644 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:40:22,645 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:40:22,650 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:40:29,604 [Worker-37: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:40:30,017 [Worker-37: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.api:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:40:30,465 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:40:30,465 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:40:30,468 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:40:31,661 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:40:31,673 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:40:31,675 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:42:10,978 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:42:11,752 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:42:11,752 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:42:11,755 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:42:12,935 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:42:12,947 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:42:12,950 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:51:46,814 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:51:46,822 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:51:46,826 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:52:27,499 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:52:27,504 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:52:27,508 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:56:00,646 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:api-gateway:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\api-gateway\pom.xml.
+2025-05-19 10:56:01,258 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:56:01,259 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:56:01,264 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\api-gateway\src\test\resources
+2025-05-19 10:56:01,530 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:56:01,836 [Worker-47: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.api:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:56:02,215 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:56:02,216 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:56:02,219 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:56:03,499 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:56:03,510 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:56:03,513 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:59:47,021 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:commons-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\pom.xml.
+2025-05-19 10:59:47,249 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.api:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 10:59:47,362 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.api:commons-microservicio:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2025-05-19 10:59:47,600 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:vuelo-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\vuelo-microservicio\pom.xml.
+2025-05-19 10:59:47,659 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:59:47,878 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:aerolinea-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\producto-microservicio\pom.xml.
+2025-05-19 10:59:47,924 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:59:48,177 [Worker-45: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:vuelo-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\pedido-microservicio\pom.xml.
+2025-05-19 10:59:48,208 [Worker-45: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 10:59:49,615 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,616 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,619 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 10:59:49,650 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,650 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,651 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 10:59:49,751 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,754 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,757 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\pedido-microservicio\src\test\resources
+2025-05-19 10:59:49,914 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,929 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:49,934 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\producto-microservicio\src\test\resources
+2025-05-19 10:59:50,221 [Worker-46: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.api:commons-microservicio:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.api:commons-microservicio:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-05-19 10:59:50,228 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:59:50,230 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:50,233 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\pedido-microservicio\src\test\resources
+2025-05-19 10:59:50,371 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:59:50,373 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:50,377 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\producto-microservicio\src\test\resources
+2025-05-19 10:59:50,643 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 10:59:50,659 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 10:59:50,664 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\vuelo-microservicio\src\test\resources
+2025-05-19 11:00:01,256 [Worker-49: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 11:00:01,320 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:cliente-microservicio:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\pom.xml.
+2025-05-19 11:00:01,350 [Worker-49: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier  to /commons-microservicio/target/classes
+2025-05-19 11:00:01,818 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:00:01,818 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:00:01,821 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:00:02,962 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:00:02,971 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:00:02,973 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:03:31,196 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-19 11:03:31,218 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:03:31,220 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\api-gateway\src\test\resources
+2025-05-19 11:03:42,483 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-05-19 11:03:42,489 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:03:42,492 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\api-gateway\src\test\resources
+2025-05-19 11:04:07,622 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jose:api-gateway:0.0.1-SNAPSHOT @ C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\api-gateway\pom.xml.
+2025-05-19 11:04:08,025 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:04:08,026 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:04:08,029 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\api-gateway\src\test\resources
+2025-05-19 11:04:46,252 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:04:46,256 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:04:46,258 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:05:44,595 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:05:44,599 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:05:44,601 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:06:04,087 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:06:04,096 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:06:04,099 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:06:04,167 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:06:04,171 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:06:04,174 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\pedido-microservicio\src\test\resources
+2025-05-19 11:06:04,217 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:06:04,220 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:06:04,222 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\producto-microservicio\src\test\resources
+2025-05-19 11:06:05,361 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:06:05,363 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:06:05,366 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:06:05,508 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:06:05,522 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:06:05,524 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\pedido-microservicio\src\test\resources
+2025-05-19 11:06:05,615 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:06:05,635 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:06:05,637 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\producto-microservicio\src\test\resources
+2025-05-19 11:07:25,359 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:07:25,362 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:07:25,365 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:08:12,739 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:08:12,742 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:08:12,744 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:08:38,578 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:08:38,582 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:08:38,584 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:10:47,200 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:10:47,203 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:10:47,206 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:11:29,708 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:11:29,712 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:11:29,714 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:12:03,177 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:12:03,180 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:12:03,183 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:16:31,793 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:16:31,796 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:16:31,799 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:16:43,697 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:16:43,700 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:16:43,702 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:25:37,674 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:25:37,679 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:25:37,681 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:26:52,217 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:26:52,222 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:26:52,224 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:27:29,630 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:27:29,633 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:27:29,635 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:29:17,271 [Worker-54: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:29:17,514 [Worker-54: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:29:17,731 [Worker-54: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:30:18,132 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:30:18,137 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:30:18,139 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:30:22,753 [Worker-45: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:30:22,980 [Worker-45: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:30:23,196 [Worker-45: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:30:35,937 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:30:35,943 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:30:35,946 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:30:41,541 [Worker-53: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:30:41,763 [Worker-53: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:30:41,987 [Worker-53: Launching cliente-microservicio - ClienteMicroservicioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons-microservicio: com.jose:commons-microservicio:0.0.1-SNAPSHOT with classifier null to /commons-microservicio/target/classes
+2025-05-19 11:36:54,551 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:36:54,559 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:36:54,563 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:38:16,342 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:38:16,346 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:38:16,348 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\cliente-microservicio\src\test\resources
+2025-05-19 11:43:14,239 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:43:14,250 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:43:14,253 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
+2025-05-19 11:46:14,637 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-05-19 11:46:14,642 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-05-19 11:46:14,644 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\TRPAD08\Documents\Jose\Mayo2025\Semana4\API Rest con microservicios\commons-microservicio\src\test\resources
