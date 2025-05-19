@@ -1,7 +1,0 @@
-package com.jose.aerolinea.services;
-
-
-
-public interface AerolineaService extends CommonService<AerolineaDTO> {
-
-}
