@@ -1,0 +1,80 @@
+package com.jose.pedido.servicies;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
+import com.jose.commons.models.entities.Vuelo;
+import com.jose.commons.servicies.CommonServiceImpl;
+import com.jose.pedido.mappers.VueloGetMapper;
+import com.jose.pedido.mappers.VueloPostMapper;
+import com.jose.pedido.models.repositories.VueloRepository;
+
+@Service
+public class VueloServiceImpl  extends CommonServiceImpl<PedidoDTOPost, Vuelo, VueloPostMapper, VueloRepository>
+implements VueloService{
+	
+	@Autowired
+	private VueloGetMapper getMapper;
+
+
+		@Override
+		@Transactional(readOnly = true)
+		public List<PedidoDTOGet> listarGet() {
+			List<PedidoDTOGet> dtos = new ArrayList<>();
+			repository.findAll().forEach(avion-> {
+				dtos.add(getMapper.entityToDTO(avion));
+			});
+			return dtos;
+		}
+	
+		@Override
+		@Transactional(readOnly = true)
+		public Optional<PedidoDTOGet> obtenerPorIdGet(Long id) {
+			Optional<Vuelo> vuelo = repository.findById(id);
+			if (vuelo.isPresent()) {
+				return Optional.of(getMapper.entityToDTO(vuelo.get()));
+			}
+			return Optional.empty();
+			
+		}
+	
+		@Override
+		@Transactional
+		public PedidoDTOPost editar(PedidoDTOPost dto, Long id) {
+			Optional<Vuelo> vuelo = repository.findById(id);
+			if (vuelo.isPresent()) {
+				Vuelo vueloDb = mapper.dtoEntity(dto);
+				vueloDb.setId(id);
+				repository.save(vueloDb);
+				return mapper.entityToDTO(vueloDb);
+			}
+			return null;
+		}
+	
+		@Override
+		@Transactional
+		public PedidoDTOPost insertar(PedidoDTOPost dto) {
+			Vuelo vueloDb = mapper.dtoEntity(dto);
+			repository.save(vueloDb);
+			return mapper.entityToDTO(vueloDb);
+		}
+	
+		@Override
+		@Transactional
+		public PedidoDTOPost eliminar(Long id) {
+			Optional<Vuelo> vuelo = repository.findById(id);
+			if(vuelo.isPresent()) {
+				repository.deleteById(id);
+				return mapper.entityToDTO(vuelo.get());
+			}
+			return null;
+	}
+}

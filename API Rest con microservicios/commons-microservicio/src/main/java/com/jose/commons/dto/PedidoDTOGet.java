@@ -1,22 +1,21 @@
 package com.jose.commons.dto;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class PedidoDTOGet {
 	
 	   	private Long id;
 	   	
-	    private String codigoVuelo;
+	    private String idCliente;
 	    
-	    private String avion;
+	    private List<String> productos;
 	    
-	    private String origen;
+	    private Long total;
+	   
+	    private LocalDate fecha;
 	    
-	    private String destino;
-	    
-	    private LocalDate fechaSalida;
-	    
-	    private Long estatus;
+	    private Long estado;
 
 		public Long getId() {
 			return id;
@@ -26,54 +25,45 @@ public class PedidoDTOGet {
 			this.id = id;
 		}
 
-		public String getCodigoVuelo() {
-			return codigoVuelo;
+		public String getIdCliente() {
+			return idCliente;
 		}
 
-		public void setCodigoVuelo(String codigoVuelo) {
-			this.codigoVuelo = codigoVuelo;
+		public void setIdCliente(String idCliente) {
+			this.idCliente = idCliente;
 		}
 
-		public String getAvion() {
-			return avion;
+		public List<String> getProductos() {
+			return productos;
 		}
 
-		public void setAvion(String avion) {
-			this.avion = avion;
+		public void setProductos(List<String> productos) {
+			this.productos = productos;
 		}
 
-		public String getOrigen() {
-			return origen;
+		public Long getTotal() {
+			return total;
 		}
 
-		public void setOrigen(String origen) {
-			this.origen = origen;
+		public void setTotal(Long total) {
+			this.total = total;
 		}
 
-		public String getDestino() {
-			return destino;
+		public LocalDate getFecha() {
+			return fecha;
 		}
 
-		public void setDestino(String destino) {
-			this.destino = destino;
+		public void setFecha(LocalDate fecha) {
+			this.fecha = fecha;
 		}
 
-		public LocalDate getFechaSalida() {
-			return fechaSalida;
+		public Long getEstado() {
+			return estado;
 		}
 
-		public void setFechaSalida(LocalDate fechaSalida) {
-			this.fechaSalida = fechaSalida;
+		public void setEstado(Long estado) {
+			this.estado = estado;
 		}
-
-		public Long getEstatus() {
-			return estatus;
-		}
-
-		public void setEstatus(Long estatus) {
-			this.estatus = estatus;
-		}
-
 
 
 }

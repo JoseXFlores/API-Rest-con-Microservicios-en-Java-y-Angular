@@ -1,0 +1,91 @@
+package com.jose.pedido.servicies;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
+import com.jose.commons.models.entities.Pedido;
+
+
+
+import com.jose.commons.servicies.CommonServiceImpl;
+import com.jose.pedido.mappers.PedidoGetMapper;
+import com.jose.pedido.mappers.PedidoPostMapper;
+import com.jose.pedido.models.repositories.PedidoRepository;
+
+
+@Service
+public class PedidoServiceImpl  extends CommonServiceImpl<PedidoDTOPost, Pedido, PedidoPostMapper, PedidoRepository>
+implements PedidoService{
+	
+	@Autowired
+	private PedidoGetMapper getMapper;
+
+
+
+	@Override
+	@Transactional(readOnly = true)
+	public List<PedidoDTOGet> listarGet() {
+		List<PedidoDTOGet> dtos = new ArrayList<>();
+		repository.findAll().forEach(cliente -> {
+			dtos.add(getMapper.entityToDTO(cliente));
+		});
+		return dtos;
+	}
+
+	@Override
+	@Transactional(readOnly = true)
+	public Optional<PedidoDTOGet> obtenerPorIdGet(Long id) {
+		Optional<Pedido> pedido = repository.findById(id);
+		if (pedido.isPresent()) {
+			return Optional.of(getMapper.entityToDTO(pedido.get()));
+		}
+		return Optional.empty();
+	}
+	
+
+
+
+	@Override
+	@Transactional
+	public PedidoDTOPost editar(PedidoDTOPost dto, Long id) {
+		Optional<Pedido> pedido = repository.findById(id);
+		if (pedido.isPresent()) {
+			Pedido pedidoDb = mapper.dtoEntity(dto);
+			pedidoDb.setId(id);
+			repository.save(pedidoDb);
+			return mapper.entityToDTO(pedidoDb);
+		}
+		return null;
+	}
+
+	@Override
+	@Transactional
+	public PedidoDTOPost insertar(PedidoDTOPost dto) {
+		Pedido pedidoDb = mapper.dtoEntity(dto);
+		repository.save(pedidoDb);
+		return mapper.entityToDTO(pedidoDb);
+	}
+
+	
+	@Override
+	@Transactional
+	public PedidoDTOPost eliminar(Long id) {
+		Optional<Pedido> pedido = repository.findById(id);
+		if(pedido.isPresent()) {
+			repository.deleteById(id);
+			return mapper.entityToDTO(pedido.get());
+		}
+		return null;
+	}
+	
+
+
+}

@@ -1,0 +1,34 @@
+package com.jose.pedido.mappers;
+import com.jose.pedido.clients.ClienteClient;
+import org.springframework.stereotype.Component;
+
+
+import com.jose.commons.dto.PedidoDTOGet;
+
+
+
+@Component
+public class PedidoGetMapper {
+
+	
+	public PedidoDTOGet entityToDTO (Pedido entity) {	
+		if(entity ==null) return null;
+		
+		PedidoDTOGet dto = new PedidoDTOGet();
+		dto.setId(entity.getId());
+		dto.setCliente(entity.getCliente());
+
+		if(entity.getProducto()!=null) {
+			dto.setProducto(entity.getProducto().getListaProductos());
+			
+		}
+		
+	    dto.setTotal(entity.getTotal());
+	    dto.setFecha(entity.getFecha());
+	   
+	    dto.setEstado(entity.getEstado());
+
+		return dto;
+	}	
+
+}

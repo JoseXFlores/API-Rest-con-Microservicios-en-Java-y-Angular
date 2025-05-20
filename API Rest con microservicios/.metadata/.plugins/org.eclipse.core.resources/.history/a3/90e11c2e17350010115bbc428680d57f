@@ -1,0 +1,93 @@
+package com.jose.commons.dto;
+
+import java.time.LocalDate;
+import java.util.List;
+
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
+
+
+public class PedidoDTOPost {
+	
+   	private Long id;
+   	
+	@NotBlank(message = "El nombre del vuelo no puede estar en blanco")    	
+    private String nombre;
+   	
+	@NotBlank(message = "El nombre del vuelo no puede estar en blanco")    	
+    private String cliente;
+	    
+	private List<String> listaProductos;
+    
+    private Long total;
+    
+	@Past(message = "La fecha debe estar en el pasado")
+    private LocalDate fecha;
+    
+	@NotNull(message = "El estatus es obligatorio")
+	@Min(value = 1, message = "El estatus debe ser minimo 1")
+	@Max(value = 4, message = "El estatus no debe ser mayor de 4")
+    private Long estado;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(String cliente) {
+		this.cliente = cliente;
+	}
+
+	public List<String> getListaProductos() {
+		return listaProductos;
+	}
+
+	public void setListaProductos(List<String> listaProductos) {
+		this.listaProductos = listaProductos;
+	}
+
+	public Long getTotal() {
+		return total;
+	}
+
+	public void setTotal(Long total) {
+		this.total = total;
+	}
+
+	public LocalDate getFecha() {
+		return fecha;
+	}
+
+	public void setFecha(LocalDate fecha) {
+		this.fecha = fecha;
+	}
+
+	public Long getEstado() {
+		return estado;
+	}
+
+	public void setEstado(Long estado) {
+		this.estado = estado;
+	}
+
+	
+	
+}

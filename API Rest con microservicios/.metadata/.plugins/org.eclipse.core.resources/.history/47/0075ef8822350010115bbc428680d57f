@@ -1,0 +1,89 @@
+package com.jose.pedido.mappers;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.jose.commons.dto.ClienteDTO;
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
+import com.jose.commons.dto.ProductoDTO;
+import com.jose.commons.mappers.CommonMapper;
+import com.jose.commons.models.entities.Cliente;
+import com.jose.commons.models.entities.Pedido;
+import com.jose.commons.models.entities.Producto;
+import com.jose.pedido.clients.ProductoClient;
+import com.jose.pedido.clients.ClienteClient;
+import com.jose.pedido.models.repositories.PedidoRepository;
+
+@Component
+public class PedidoPostMapper extends CommonMapper<PedidoDTOPost, Pedido, PedidoRepository> {
+
+    @Autowired
+    private ClienteClient clienteClient;
+
+    @Autowired
+    private ProductoClient productoClient;
+
+    @Override
+    public PedidoDTOPost entityToDTO(Pedido entity) {
+        if (entity == null) return null;
+
+        PedidoDTOPost dto = new PedidoDTOPost();
+        dto.setId(entity.getId());
+        
+		if (entity.getEvolucion() != null) {
+			dto.setIdEvolucion(entity.getEvolucion().getId());
+		}
+        
+		if (entity.getCliente() != null) {
+			dto.setIdCliente(entity.getCliente().getId());
+		}
+
+
+        if (entity.getListaProductos() != null) {
+            List<Long> ids = entity.getListaProductos()
+                                   .stream()
+                                   .map(Producto::getId) // ← ID del producto
+                                   .collect(Collectors.toList());
+            dto.setListaProductos(ids);
+        }
+
+        dto.setTotal(entity.getTotal());
+        dto.setFecha(entity.getFecha());
+        dto.setEstado(entity.getEstado());
+
+        return dto;
+    }
+
+    @Override
+    public Pedido dtoEntity(PedidoDTOPost dto) {
+        if (dto == null) return null;
+
+        Pedido entity = new Pedido();
+        entity.setId(dto.getId());
+        
+        
+		if(dto.getIdCliente() != null) {
+			Pedido cliente = repository.findById(dto.getIdCliente()).orElse(null);
+			entity.setCliente(cliente);
+		}
+       
+        if (dto.getListaProductos() != null) {
+            List<Producto> productos = dto.getListaProductos()
+                                          .stream()
+                                          .map(productoClient::getProductoById) // ← consumo por ID
+                                          .collect(Collectors.toList());
+            entity.setListaProductos(productos);
+        }
+
+        entity.setTotal(dto.getTotal());
+        entity.setFecha(dto.getFecha());
+        entity.setEstado(dto.getEstado());
+
+        return entity;
+    }
+}
+

@@ -47,12 +47,6 @@ R extends JpaRepository<E, Long>> implements CommonService<D> {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	
-	
-	
-	
-	
-	
+
 
 }

@@ -1,10 +1,14 @@
 package com.jose.commons.models.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
@@ -26,10 +30,19 @@ public class Producto {
     private String descripcion;
     
 	@Column(name = "PRECIO")
-	private Double precio;
+	private Long precio;
 
 	@Column (name= "STOCK ")
     private Integer stock;
+	
+	@ManyToMany(mappedBy = "productos")
+	private List<Pedido>pedidos;
+
+	public Producto() {
+		
+		this.pedidos = new ArrayList<>();
+		
+	}
 
 	public Long getId() {
 		return id;
@@ -55,11 +68,11 @@ public class Producto {
 		this.descripcion = descripcion;
 	}
 
-	public Double getPrecio() {
+	public Long getPrecio() {
 		return precio;
 	}
 
-	public void setPrecio(Double precio) {
+	public void setPrecio(Long precio) {
 		this.precio = precio;
 	}
 
@@ -71,5 +84,14 @@ public class Producto {
 		this.stock = stock;
 	}
 
-	
+	public List<Pedido> getPedidos() {
+		return pedidos;
+	}
+
+	public void setPedidos(List<Pedido> pedidos) {
+		this.pedidos = pedidos;
+	}
+
+
+
 }
