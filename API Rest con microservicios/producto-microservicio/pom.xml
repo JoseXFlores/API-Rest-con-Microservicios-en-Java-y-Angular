@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jose</groupId>
-	<artifactId>aerolinea-microservicio</artifactId>
+	<artifactId>producto-microservicio</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>aerolinea-microservicio</name>
 	<description>Proyecto de aerolinea</description>

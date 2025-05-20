@@ -1,0 +1,17 @@
+package com.jose.pedido;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@EnableFeignClients
+@SpringBootApplication(scanBasePackages = {"com.jose.commons.controllers","com.jose.vuelo"})
+@EntityScan({"com.jose.commons.models.entities"})
+public class VueloMicroservicioApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(VueloMicroservicioApplication.class, args);
+	}
+
+}

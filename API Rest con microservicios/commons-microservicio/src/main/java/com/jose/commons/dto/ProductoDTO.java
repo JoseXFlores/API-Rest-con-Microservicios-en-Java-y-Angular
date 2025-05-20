@@ -17,8 +17,8 @@ public class ProductoDTO {
 	private String descripcion;
 	
 	@NotNull(message = "El precio no puede ser nulo")
-	@DecimalMin(value = "0.0", inclusive = false, message = "El precio debe ser un número positivo")
-	private Double precio;
+	@DecimalMin(value = "0", inclusive = false, message = "El precio debe ser un número positivo")
+	private Long precio;
 
 	@NotNull(message = "El stock no puede ser nulo")
 	@Min(value = 1, message = "El stock debe ser un número entero positivo")
@@ -48,11 +48,11 @@ public class ProductoDTO {
 		this.descripcion = descripcion;
 	}
 
-	public Double getPrecio() {
+	public Long getPrecio() {
 		return precio;
 	}
 
-	public void setPrecio(Double precio) {
+	public void setPrecio(Long precio) {
 		this.precio = precio;
 	}
 
@@ -63,6 +63,7 @@ public class ProductoDTO {
 	public void setStock(Integer stock) {
 		this.stock = stock;
 	}
-	
+
+
 
 }

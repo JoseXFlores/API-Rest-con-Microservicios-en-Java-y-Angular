@@ -1,0 +1,69 @@
+package com.jose.commons.dto;
+
+import java.time.LocalDate;
+import java.util.List;
+
+public class PedidoDTOGet {
+	
+	   	private Long id;
+	   	
+	    private String idCliente;
+	    
+	    private List<String> listaProductos;
+	    
+	    private Long total;
+	   
+	    private LocalDate fecha;
+	    
+	    private Long estado;
+
+		public Long getId() {
+			return id;
+		}
+
+		public void setId(Long id) {
+			this.id = id;
+		}
+
+		public String getIdCliente() {
+			return idCliente;
+		}
+
+		public void setIdCliente(String idCliente) {
+			this.idCliente = idCliente;
+		}
+
+		public List<String> getListaProductos() {
+			return listaProductos;
+		}
+
+		public void setListaProductos(List<String> listaProductos) {
+			this.listaProductos = listaProductos;
+		}
+
+		public Long getTotal() {
+			return total;
+		}
+
+		public void setTotal(Long total) {
+			this.total = total;
+		}
+
+		public LocalDate getFecha() {
+			return fecha;
+		}
+
+		public void setFecha(LocalDate fecha) {
+			this.fecha = fecha;
+		}
+
+		public Long getEstado() {
+			return estado;
+		}
+
+		public void setEstado(Long estado) {
+			this.estado = estado;
+		}
+
+
+}

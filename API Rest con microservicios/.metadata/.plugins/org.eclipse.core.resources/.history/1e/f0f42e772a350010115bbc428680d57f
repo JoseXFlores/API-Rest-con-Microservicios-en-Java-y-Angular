@@ -1,0 +1,16 @@
+package com.jose.pedido.clients;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import com.jose.commons.models.entities.Cliente;
+
+
+@FeignClient(name = "cliente-microservicio")
+public interface ClienteClient {
+	
+	@GetMapping("/{id}")
+	public Cliente getClienteById(@PathVariable String string);
+
+}

@@ -33,6 +33,10 @@ public class Cliente {
 	
 	@Column(name = "DIRECCION")
     private String direccion;
+	
+	public Cliente() {
+
+	}
 
 	public Long getId() {
 		return id;

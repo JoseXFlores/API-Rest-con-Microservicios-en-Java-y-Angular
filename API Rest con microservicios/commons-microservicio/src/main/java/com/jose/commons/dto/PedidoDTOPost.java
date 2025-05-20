@@ -1,37 +1,32 @@
 package com.jose.commons.dto;
 
 import java.time.LocalDate;
+import java.util.List;
 
-import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
 
 public class PedidoDTOPost {
 	
    	private Long id;
    	
-	@NotBlank(message = "El codigo del vuelo no puede estar en blanco")    	
-    private String codigoVuelo;
+	@NotNull(message = "El id del cliente no puede estar en blanco")    	
+    private Long idCliente;
 	
-	@NotNull(message = "El avion no puede estar en blanco") 
-    private Long avion;
+	private List<Long> idProductos;
+	
+    private Long total;
     
-	@NotNull(message = "El origen no puede estar en blanco") 
-    private Long origen;
+	@Past(message = "La fecha debe estar en el pasado")
+    private LocalDate fecha;
     
-	@NotNull(message = "El destino no puede estar en blanco") 
-    private Long destino;
-    
-	@Future(message = "La fecha debe estar en el futuro")
-	private LocalDate fechaSalida;
-    
-	@Min(value = 1, message = "El estatus mínimo permitido es 1")
-	@Max(value = 2, message = "El estatus máximo permitido es 2")
-	@NotNull(message = "El estatus es obligatorio")
-    private Long estatus;
+	@NotNull(message = "El estado es obligatorio")
+	@Min(value = 1, message = "El estado debe ser minimo 1")
+	@Max(value = 4, message = "El estado no debe ser mayor de 4")
+    private Long estado;
 
 	public Long getId() {
 		return id;
@@ -41,52 +36,45 @@ public class PedidoDTOPost {
 		this.id = id;
 	}
 
-	public String getCodigoVuelo() {
-		return codigoVuelo;
+	public Long getIdCliente() {
+		return idCliente;
 	}
 
-	public void setCodigoVuelo(String codigoVuelo) {
-		this.codigoVuelo = codigoVuelo;
+	public void setIdCliente(Long idCliente) {
+		this.idCliente = idCliente;
 	}
 
-	public Long getAvion() {
-		return avion;
+	public List<Long> getIdProductos() {
+		return idProductos;
 	}
 
-	public void setAvion(Long avion) {
-		this.avion = avion;
+	public void setIdProductos(List<Long> idProductos) {
+		this.idProductos = idProductos;
 	}
 
-	public Long getOrigen() {
-		return origen;
+	public Long getTotal() {
+		return total;
 	}
 
-	public void setOrigen(Long origen) {
-		this.origen = origen;
+	public void setTotal(Long total) {
+		this.total = total;
 	}
 
-	public Long getDestino() {
-		return destino;
+	public LocalDate getFecha() {
+		return fecha;
 	}
 
-	public void setDestino(Long destino) {
-		this.destino = destino;
+	public void setFecha(LocalDate fecha) {
+		this.fecha = fecha;
 	}
 
-	public LocalDate getFechaSalida() {
-		return fechaSalida;
+	public Long getEstado() {
+		return estado;
 	}
 
-	public void setFechaSalida(LocalDate fechaSalida) {
-		this.fechaSalida = fechaSalida;
+	public void setEstado(Long estado) {
+		this.estado = estado;
 	}
 
-	public Long getEstatus() {
-		return estatus;
-	}
-
-	public void setEstatus(Long estatus) {
-		this.estatus = estatus;
-	}
 
 }
