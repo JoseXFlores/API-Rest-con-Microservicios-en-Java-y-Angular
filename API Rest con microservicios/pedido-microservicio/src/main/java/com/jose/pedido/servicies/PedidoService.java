@@ -14,5 +14,8 @@ public interface PedidoService extends CommonService<PedidoDTOPost> {
 	
 	Optional<PedidoDTOGet> obtenerPorIdGet(Long id);
 	
+	List<PedidoDTOGet> listarPorEstado(Long estado);
+	List<PedidoDTOGet> listarPorLetra(String letra);
+	
 	
 }

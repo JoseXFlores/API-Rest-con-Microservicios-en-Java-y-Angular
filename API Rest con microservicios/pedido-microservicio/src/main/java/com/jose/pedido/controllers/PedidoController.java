@@ -49,9 +49,16 @@ public class PedidoController extends CommonControllers<PedidoDTOPost, PedidoSer
 		return ResponseEntity.notFound().build();
 	}
 	
-	
+	@GetMapping("/estado/{estado}")
+	public ResponseEntity<List<PedidoDTOGet>> obtenerPorEstado(@PathVariable Long estado) {
+	    List<PedidoDTOGet> pedidos = service.listarPorEstado(estado);
+	    return ResponseEntity.ok(pedidos);
+	}
 
+	@GetMapping("/nombre/{letra}")
+	public ResponseEntity<List<PedidoDTOGet>> obtenerPorLetra(@PathVariable String letra) {
+	    return ResponseEntity.ok(service.listarPorLetra(letra));
+	}
 
-	
 
 }

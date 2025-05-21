@@ -83,6 +83,26 @@ implements PedidoService{
 		return null;
 	}
 	
+	@Override
+		@Transactional(readOnly = true)
+		public List<PedidoDTOGet> listarPorLetra(String letra) {
+		    List<PedidoDTOGet> dtos = new ArrayList<>();
+		    repository.buscarPorLetraEnNombreCliente(letra).forEach(pedido -> {
+		        dtos.add(getMapper.entityToDTO(pedido));
+		    });
+		    return dtos;
+		}
+		
+		@Override
+		@Transactional(readOnly = true)
+		public List<PedidoDTOGet> listarPorEstado(Long estado) {
+		    List<PedidoDTOGet> dtos = new ArrayList<>();
+		    repository.findByEstado(estado).forEach(pedido -> {
+		        dtos.add(getMapper.entityToDTO(pedido));
+		    });
+		    return dtos;
+		}
+	
 
 
 }
