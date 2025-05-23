@@ -8,6 +8,9 @@ import org.springframework.http.ResponseEntity;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.jose.commons.controllers.CommonControllers;
@@ -26,9 +29,10 @@ public class PedidoController extends CommonControllers<PedidoDTOPost, PedidoSer
 
 	@Override
 	public ResponseEntity<List<PedidoDTOPost>> getAll() {
-		// TODO Auto-generated method stub
-		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
+	    List<PedidoDTOPost> pedidos = service.listar();
+	    return ResponseEntity.ok(pedidos);
 	}
+
 
 	@Override
 	public ResponseEntity<PedidoDTOPost> getById(Long id) {
@@ -59,6 +63,8 @@ public class PedidoController extends CommonControllers<PedidoDTOPost, PedidoSer
 	public ResponseEntity<List<PedidoDTOGet>> obtenerPorLetra(@PathVariable String letra) {
 	    return ResponseEntity.ok(service.listarPorLetra(letra));
 	}
+	
 
+    
 
 }

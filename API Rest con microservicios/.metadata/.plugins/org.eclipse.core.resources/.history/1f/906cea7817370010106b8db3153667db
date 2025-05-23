@@ -1,0 +1,82 @@
+package com.jose.pedido.controllers;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.jose.commons.controllers.CommonControllers;
+import com.jose.commons.dto.PedidoDTOGet;
+import com.jose.commons.dto.PedidoDTOPost;
+import com.jose.pedido.servicies.PedidoService;
+
+
+
+@RestController
+public class PedidoController extends CommonControllers<PedidoDTOPost, PedidoService> {
+
+	public PedidoController(PedidoService service) {
+		super(service);
+	}
+
+	@Override
+	public ResponseEntity<List<PedidoDTOPost>> getAll() {
+	    List<PedidoDTOPost> pedidos = service.listar();
+	    return ResponseEntity.ok(pedidos);
+	}
+
+
+	@Override
+	public ResponseEntity<PedidoDTOPost> getById(Long id) {
+		return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).build();
+	}
+	
+	@GetMapping("/get")
+	public ResponseEntity<List<PedidoDTOGet>> getAllVuelo(){
+		return ResponseEntity.ok(service.listarGet());
+	}
+	
+	@GetMapping("/get/{id}")
+	public ResponseEntity<PedidoDTOGet> getVueloById(@PathVariable Long id){
+		Optional<PedidoDTOGet> dto = service.obtenerPorIdGet(id);
+		if (dto.isPresent()) {
+			return ResponseEntity.ok(dto.get());
+		}
+		return ResponseEntity.notFound().build();
+	}
+	
+	@GetMapping("/estado/{estado}")
+	public ResponseEntity<List<PedidoDTOGet>> obtenerPorEstado(@PathVariable Long estado) {
+	    List<PedidoDTOGet> pedidos = service.listarPorEstado(estado);
+	    return ResponseEntity.ok(pedidos);
+	}
+
+	@GetMapping("/nombre/{letra}")
+	public ResponseEntity<List<PedidoDTOGet>> obtenerPorLetra(@PathVariable String letra) {
+	    return ResponseEntity.ok(service.listarPorLetra(letra));
+	}
+	
+	 @PostMapping
+	    public ResponseEntity<PedidoDTOPost> crearPedido(@RequestBody PedidoDTOPost pedido) {
+	        PedidoDTOPost nuevo = service.save(pedido);
+	        return ResponseEntity.status(HttpStatus.CREATED).body(nuevo);
+	    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<PedidoDTOPost> actualizarPedido(@PathVariable Long id, @RequestBody PedidoDTOPost pedido) {
+        pedido.setId(id);
+        PedidoDTOPost actualizado = service.update(pedido);
+        return ResponseEntity.ok(actualizado);
+    }
+
+    
+
+}
